@@ -48,3 +48,6 @@ php82 composer82.phar self-update   # 升级到最新版本:ml-citation{ref="2,6
 php82 composer82.phar clear-cache  # 清除缓存后重试安装:ml-citation{ref="6" data="citationList"}
 
 php82 composer82.phar update
+php82 composer82.phar dump-autoload
+php82 composer82.phar update
+
