@@ -21,7 +21,9 @@ define("myAPP_RUNRIMT_PATH", __DIR__."/runtime/");
 
  
 $App =   myApp::getInstance( );   
-$result = $App->logwrite();
+// $result = $App->logwrite();
+
+$result = $App->getuserinfo(1);
 
 echo json_encode($result, JSON_UNESCAPED_UNICODE);
 
