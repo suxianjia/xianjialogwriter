@@ -3,8 +3,8 @@ namespace Suxianjia\xianjialogwriter;
 use Suxianjia\xianjialogwriter\myConfig;
 use Exception;
 // use Suxianjia\xianjiaorm\orm\myDatabase;
-use Suxianjia\xianjiaorm\orm\myDatabase;
-// use Suxianjia\xianjiaorm\orm\myDatabase;
+use Suxianjia\xianjialogwriter\orm\myDatabase;
+// use Suxianjia\xianjiaorm\orm\myDatabase; // Uncaught Error: Class "Suxianjia\xianjiaorm\orm\myDatabase" not found in
 use Suxianjia\xianjialogwriter\client\myLogClient;
 if (!defined('myAPP_VERSION')) {        exit('myAPP_VERSION is not defined'); }
 if (!defined('myAPP_ENV')  ) {          exit ('myAPP_ENV is not defined'); }

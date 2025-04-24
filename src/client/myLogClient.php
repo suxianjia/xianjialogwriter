@@ -2,7 +2,7 @@
 namespace Suxianjia\xianjialogwriter\client;
 use Exception;
 use Suxianjia\xianjialogwriter\myConfig;
-use Suxianjia\xianjiaorm\orm\myDatabase;
+use Suxianjia\xianjialogwriter\orm\myDatabase;
 if (!defined('myAPP_VERSION')) {        exit('myAPP_VERSION is not defined'); }
 if (!defined('myAPP_ENV')  ) {          exit ('myAPP_ENV is not defined'); }
 if (!defined('myAPP_DEBUG')) {          exit('myAPP_DEBUG is not defined'); }
