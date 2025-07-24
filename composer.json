@@ -2,6 +2,7 @@
     "name": "suxianjia/xianjialogwriter",
     "description": "xianjialogwriter",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Suxianjia\\xianjialogwriter\\": "src/"

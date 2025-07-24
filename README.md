@@ -51,3 +51,6 @@ php82 composer82.phar update
 php82 composer82.phar dump-autoload
 php82 composer82.phar update
 
+## License
+
+This package is open-sourced software licensed under the [MIT license](LICENSE).
